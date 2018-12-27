@@ -10,9 +10,14 @@ body {
   background-color: HSLA(75, 84%, 69%, 1);
 }
 
+#about {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(lightgrey), color-stop(1%, lightgrey), color-stop(26%, #e0e0e0), color-stop(48%, #efefef), color-stop(75%, #d9d9d9), to(#bcbcbc));
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
 .title-plaque {
   background: #fff;
-  color: HSLA(213, 63%, 50%, 1);
+  color: #2f77d0;
   padding: 10px 20px;
   border-radius: 24px;
   -webkit-box-shadow: 4px 4px 1px #444;
@@ -27,5 +32,14 @@ body {
 
 .card.light {
   background-color: #fff;
+}
+
+.navbar-logo--text {
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: 5vmin;
+  vertical-align: middle;
+  padding: 12px 16px;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=styles.css.map */
